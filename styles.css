@@ -1,3 +1,46 @@
 body {
-    background-color: aqua;
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a {
+    padding: 0 12px 0 12px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: aqua;
+    background-color: transparent;
+}
+
+.link-button {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+}
+
+.link-button:visited {
+    color:white;
 }
